@@ -48,7 +48,7 @@ int main() {
 				n /= 2;
 			}
 			else {//odd
-				n = 3 * n + 1;
+				n = (3 * n + 1) / 2;//as 3x-1 will always be even, automatically dividing by 2 saves time
 			}
 
 			cout << "Current number: " << n << endl;
